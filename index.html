@@ -1,281 +1,357 @@
+
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
-		<meta name="author" content="Coderthemes">
+<html lang="en">
 
-		<link rel="shortcut icon" href="assets/images/favicon.png">
+<head>
 
-		<title>Benefits Assured</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <title>Code Institute</title>
 
-        <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900,700italic|Dosis:300,400,600,700|Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
+</head>
 
-           <link rel="stylesheet" type="text/css" href="css/core/loading.css" />
-     <link rel="stylesheet" type="text/css" href="css/core/load-ui-mock.css" />
-    <link rel="stylesheet" type="text/css" href="css/landonme.css" />
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
 
-
-		    <script src="assets/js/modernizr.min.js"></script>
-
-	</head>
-
-
-
-<!--loading bar -->
-<div id="mockup-loading">
-    <div class="loader"></div>
-      <div class="loading">
-      <div id="loader3" class="loading-area" style="">
-        <div class="gtd-for-spa">
-         <!--  <h3 style="color:#3498db;;">Commute</h3> -->
-          <p style="color:#3498db;;">Loading...</p>
-          <div class="loading-screen" style="text-align: center">
-            <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-          </div>
-
-          <div class="loading-info"></div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <!--start -- ui -mock up-->
-
-    <!-- Header -->
-<div id="mock-up-start">
-
-
-<main id="main" role="main">
-  <div class="container">
-    <div class="row">
-
-
-      <div class="placeholder-content">
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-        <div class="placeholder-item"></div>
-      </div>
-
-    </div>
-  </div>
-</main>
-</div><!--mockup ends-->
-
-
-    <!--end mock up-->
-
-
-</div>
-<!--end loading-->
-
-
-
-	<body  style="background:#fff;" class="widescreen" >
-
-		<div class="container" id="gtd">
-
-		<div class="topbar">
-
-                <!-- LOGO -->
-                <div class="topbar-left">
-                    <div class="text-center">
-                        <a href="index.html" class="logo"><i class="icon-magnet icon-c-logo"></i><span>Ub<i class="md md-album"></i>ld</span></a>
-                        <!-- Image Logo here -->
-                        <a href="index.html" class="logo">
-                            <i class="icon-c-logo"> <img src="assets/images/logo_sm.png" height="42"/> </i>
-                            <span><img src="assets/images/partner_logo.png" height="50"/></span>
-                        </a>
-
-                    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <!-- <div class="container-fluid"> -->
+        <div class="my_wrapper">
+            <div class="navbar-inner">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="#">
+                       <img src="img/logo.png">
+                       <strong>Andela Institute</strong>
+                   </a>
                 </div>
 
-                <!-- Button mobile view to collapse sidebar menu -->
-                <div class="navbar navbar-default" role="navigation">
-                    <div class="container">
-                        <div class="">
-                            <div class="">
-                                <a href="#" style="font-size:10px;margin-left:-40px;margin-top:30px" class="waves-effect waves-light">A merchandise of trade</a>
-                            </div>
+                <div>
+                    <span class="collapse navbar-collapse" style="height: auto;">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="active"><a href="#top">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#mean_stack">MEAN Stack</a></li>
+                            <li><a href="#andela_fellow">Andela Fellow</a></li>
+                            <li><a href="#apply">Apply</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header(first page) -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <div class="header_container">
+                <div class="logo">
+                    <img src="img/andela_institute_logo.png">
+                    <div class="tag_line">Tapping into brilliance</div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-
-
-
-
-
-                            <ul class="nav navbar-nav navbar-right pull-right">
-
-
-                                </ul>
+<section id="about" class="about">
+    <div class="my_wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <h2>About Andela</h2>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="card cardbox">
+                       <div class="image-wrapper">
+                          <img src="img/target.png" />
                         </div>
-                        <!--/.nav-collapse -->
+                        <div class="card-body">
+                            <div class="card-content">
+                               <h3 class="main">Our Mission</h3>
+                               <p>Our mission is to equip youths around the world to be great developers.</p>
+
+                            </div>
+                            <div class="read-more text-center">
+                                <a  href="#" class="blue-btn-custom btn-sm">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="card cardbox">
+                       <div class="image-wrapper">
+                          <img src="img/team128.png" />
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                               <h3 class="main">Meet the team</h3>
+                               <p>The Andela team is the best team in the world. They are organized, passionate about what they do.</p>
+
+                            </div>
+                            <div class="readMore text-center">
+                                <a  href="#" class="blue-btn-custom btn-sm">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="card cardbox">
+                       <div class="image-wrapper">
+                          <img src="img/network.png" />
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                               <h3 class="main">The Andela Network</h3>
+                               <p>Andela has a network of great minds and those that want to add to  in the world. Fnd out about it now.</p>
+
+                            </div>
+                            <div class="read-more text-center">
+                                <a  href="#" class="blue-btn-custom btn-sm">Read more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-		<div class="account-pages"></div>
-		<!-- <div class="clearfix"></div>  -->
-		<!--  -->
-			<div class="col-lg-8 col-md-6 hidden-md-down hidden-xs hidden-sm " style='background:#fff url("newbanner.jpg")  no-repeat fixed left; background-size:contain;'>
-			<div style="padding:43% 0px"></div>
-		</div>
+        </div>
+    </div>
+</section>
 
 
-		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 pull-right" style='background:#fff;height:600px'>
-			<div class="card-box">
-				<div class="panel-heading">
-					<h3 class="text-center"><strong class="text-custom"><!-- <img class="logo-wide" src="assets/images/CommuteLogos-02.png"/> -->
+<section id="mean_stack" class="mean mean_stack fixed-bg-image">
+    <div class="fixed-bg-div">
+    <div class="my_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Mean Stack</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col_content">
+                            <div>
+                                <h3 class="main">Skill Focus</h3>
+                                <p>The skills a man who learns Mean Stack would have</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et interdum magna. Integer vel arcu at tellus ultrices commodo. Suspendisse cursus suscipit tortor ut lobortis. Vivamus sodales id erat vitae ultricies. </p> <p>Donec hendrerit orci at metus venenatis, vitae dictum enim viverra. Praesent non posuere mauris, nec pretium ante. Duis tincidunt justo quis diam fringilla, pellentesque ullamcorper massa elementum.</p>
+                            </div>
+                            <div class="readMore text-center">
+                                <a  href="#" class="btn-plain btn-sm">Read more</a>
+                            </div>
+                        </div>
+                    </div>
 
-						   <a href="#" style="font-size:20px;margin-top:30px" class="waves-effect waves-light">Benefits Assured</a>
-                           <br/>
-						   <img class="logo-wide" height="40" src="assets/images/partner_logo.png"/>
-						   <h6 style="font-size:10px;" class="waves-effect waves-light">A merchandise of trade.</h6>
-					</strong></h3>
-				</div>
-
-				<div class="panel-body" style="margin-top:-44px;">
-					<form class="form-horizontal m-t-20" method="POST" action="http://localhost:12000/api/v1/auth/login">
-
-						<div id="msg" style="color:red"></div><br/>
-
-						<div class="form-group ">
-							<div class="col-xs-12">
-								<input class="form-control" type="text" id="userName" required="" placeholder="Username / Email ">
-							</div>
-						</div>
-
-
-
-						<div class="form-group">
-							<div class="col-xs-12">
-								<input class="form-control" id="userPw" type="password" required="" placeholder="Password">
-							</div>
-						</div>
-
-						<div class="form-group ">
-							<div class="col-xs-12">
-								<div class="checkbox checkbox-primary">
-									<input id="checkbox-signup" type="checkbox">
-									<label for="checkbox-signup"> Remember me </label>
-								</div>
-
-							</div>
-						</div>
-
-						<div class="form-group text-center m-t-40">
-							<div class="col-xs-12">
-								<button id="login_btn" class="btn btn-info btn-block text-uppercase waves-effect waves-light" type="submit">
-									Log In
-								</button>
-							</div>
-						</div>
-
-						<div class="form-group m-t-20 m-b-0">
-							<div class="col-sm-12">
-								<a href="recoverpw.html" class="text-dark"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
-							</div>
-						</div>
-
-						<div class="form-group m-t-20 m-b-0">
-							<div class="col-sm-12 text-center">
-								<h4><b>Sign in with</b></h4>
-							</div>
-						</div>
-
-						<div class="form-group m-b-0 text-center">
-							<div class="col-sm-12">
-								<a href="http://localhost:12000/api/v1/auth/facebook" class="btn btn-facebook waves-effect waves-light m-t-20">
-		                           <i class="fa fa-facebook m-r-5"></i> Facebook
-		                        </a>
-
-		                        <a href="http://localhost:12000/api/v1/auth/twitter" class="btn btn-twitter waves-effect waves-light m-t-20">
-		                           <i class="fa fa-twitter m-r-5"></i> Twitter
-		                        </a>
-
-		                        <a href="http://localhost:12000/api/v1/auth/google" class="btn btn-googleplus waves-effect waves-light m-t-20">
-		                           <i class="fa fa-google-plus m-r-5"></i> Google+
-		                        </a>
-							</div>
-						</div>
-					</form>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col_content">
+                            <div>
+                                <h3 class="main">Training Timeline</h3>
+                                <p>Fnd out how long will it take you to learn to use mean stack at Andela?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et interdum magna. Integer vel arcu at tellus ultrices commodo. </p>
+                                <p>Suspendisse cursus suscipit tortor ut lobortis. Vivamus sodales id erat vitae ultricies. </p> <p>Donec hendrerit orci at metus venenatis, vitae dictum enim viverra. Praesent non posuere mauris, nec pretium ante. Duis tincidunt justo quis diam fringilla, pellentesque ullamcorper massa elementum.</p>
+                            </div>
+                            <div class="readMore text-center">
+                                <a  href="#" class="btn-plain btn-sm">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
 
-				</div>
+<section id="andela_fellow" class="andela_fellow ">
+    <div class="my_wrapper ">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="text-center">Who is an Andela Fellow</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="card cardbox">
+                            <div class="image-wrapper">
+                              <img src="img/process.png" />
+                            </div>
 
-				<div class="row m-t-20">
-				<div class="col-sm-12 text-center">
-					<p>
-						Don't have an account? <a href="register.html" class="text-primary m-l-5"><b>Sign Up</b></a>
-					</p>
-				</div>
-			</div>
-			</div>
+                            <div class="card-content">
+                               <h3 class="main">Selective/application process</h3>
+                               <p>Lorem ipsum dolor sit amet, consect adipis elit. Praesent metus turpis, semper consec erat vitae, euismod tinci enim.</p>
+                               <p>Sed sed dui sed ante posuere vehic nec eu tortor. Maecen suscipit conseq lla a iaculis. Donec malesua vestib faucibus. Mauris in enim rhoncus, rhoncus turpis id, faucibus nibh.</p>
+                            </div>
+                            <div class="readMore text-center">
+                                <a  href="#" class="btn btn-primary btn-sm">Read more</a>
+                            </div>
 
-		</div>
+                        </div>
+                    </div>
 
-	</div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="card cardbox">
+                            <div class="image-wrapper">
+                              <img src="img/assessment.png" />
+                            </div>
 
-		 <div class="footer">
+                            <div class="card-content">
+                               <h3 class="main">Take Assessments</h3>
+                               <p>You have in all 100 multiple choice question.</p>
+                               <p>Sed sed dui sed ante posuere vehicula nec eu tortor. Maecenas suscipit consequat nulla a iaculis. Donec malesuada vestibulum faucibus. Mauris in enim rhoncus, rhoncus turpis id, faucibus nibh.</p>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus turpis, semper consectetur erat vitae, euismod tincidunt enim.</p>
+                            </div>
+
+                            <div class="readMore text-center">
+                                <a  href="#" class="btn btn-primary btn-sm">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="apply"class="apply fixed-bg-apply">
+  <div class="fixed-bg-divapply">
+    <div class="my_wrapper">
+       <div class="container-fluid">
+          <div class="row">
+              <div class="container-fluid">
+                <h2 class="text-center">
+                    Apply To be a Fellow
+                </h2>
+                <div class="row">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="center">
+                        <span class="icon"><img src="img/hourglass.png"></span>
+                        <h4>Deadline</h4>
+                        <p>The Andela team is the best team in the world. They are organized, passionate about what they do.</p>
+                    </div>
+                    <div class="read-more text-center">
+                        <a  href="#" class="blue-btn-custom btn-sm">Read more</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                    <div class="center">
+                        <span class="icon"><img src="img/network.png"></span>
+                        <h4>Andela Fellow Network</h4>
+                        <p>yeuhud jsdhbkajaud hsabchcs bvdfsbdzcn
+                            dfbksfbdsk bsdbk jsf j bvsn   ksbcjss dcs
+                            dsbkv kjbdvksvk kjd
+                        </p>
+                        <div class="read-more text-center">
+                            <a  href="#" class="blue-btn-custom btn-sm">Read more</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                    <div class="center">
+                        <span class="icon"><img src="img/apply.png"></span>
+                        <h4>How It Can Change your  Life</h4>
+                        <p>The Andela team is the best team in the world.
+                            Be lhjhisdb hgwfiufefzjd mz ckajkafdkjbf hvdfjshdjs
+                        </p>
+                        <div class="read-more text-center">
+                             <a  href="#" class="blue-btn-custom btn-sm">Read more</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+ </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-col">
+                <div class="footer-col1">
+                    <div class="text-center">
+                        <h4><strong>Andela Institute</strong>
+                        </h4>
+                    </div>
+                    <div class="contact group">
+                        <div class="col-md-4">
+                            <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+                               <a href="#set-5" class="hi-icon hi-icon-location">Location</a>
+                            </div>
+                            <div class="footer-col-text">
+                            <p>4 Connal Road<br>Herbert Macauley, Lagos Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+                             <a href="#" class="hi-icon hi-icon-mobile">Partners</a>
+                          </div>
+                          <div class="footer-col-text">
+                            <p>Phone Number:<br>(080) 848-67569</p>
+                          </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+                               <a href="#set-5" class="hi-icon hi-icon-mail">mail</a>
+                            </div>
+                            <div class="footer-col-text-bar-last">
+                             <a href="mailto:name@example.com">info@andela.co</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "footer_social-icons group text-center">
+                      <hr class="small">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ThisIsAndela"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            </li>
+                        </ul>
+                        <hr class="small">
+                        <p class="text-center">Copyright &copy;Andela Institute 2014</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
-		<script>
-			var resizefunc = [];
-		</script>
-
-		<script src="assets/js/loading.js"></script>
-
-		<!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/detect.js"></script>
-        <script src="assets/js/fastclick.js"></script>
-        <script src="assets/js/jquery.slimscroll.js"></script>
-        <script src="assets/js/jquery.blockUI.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.nicescroll.js"></script>
-        <script src="assets/js/jquery.scrollTo.min.js"></script>
+    </footer>
 
 
-        <script src="assets/js/jquery.core.js"></script>
-        <script src="assets/js/jquery.app.js"></script>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-	</body>
+    <!-- Smooth Scrolling Javascript -->
+    <script src="js/app.js"></script>
+    <!-- for the footer icons -->
+    <script src="js/modernizr.js"></script>
+</body>
+
 </html>

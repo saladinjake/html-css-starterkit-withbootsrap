@@ -1,0 +1,102 @@
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>li>a:hover {
+    /*background-color: #D3279C;*/
+    /*box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5) inset, 0px 5px 4px rgba(0, 0, 0, 0.12);*/
+    background-color:#0356d2;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+
+/* Change hover text colour */
+.main-navigation li a:hover {
+ color: deeppink;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #D3279C;
+    background-color: #DA2426;
+
+
+}
+
+.active {
+    font-weight: bold;
+    color: red;
+}
+
+.navbar-brand strong {
+    color: #ffffff;
+}
+
+/*.navbar-inverse .navbar-brand i {
+color: #ff7878;
+}
+*/
+.navbar-brand strong:hover {
+    color: tomato;
+}
+
+.header_container {
+    position: absolute;
+    top: 180px;
+    left: 33%;
+    width: 435px;
+    height: 200px;
+}
+
+.logo {
+    width: 85%;
+    margin: 35px auto 20px auto;
+}
+
+.logo img {
+    position: absolute;
+    left: -19%;
+    height: 49%;
+    top: 10%;
+    border-bottom: 2px solid #35485b;
+}
+
+.tag_line {
+    font-size: 2.3em;
+    text-align: center;
+    color: #35485b;
+    position: absolute;
+    top: 61%;
+    left: 21%;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: url(../img/img_hero.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+
+
+
+
+.navbar-default .navbar-brand {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: auto !important;
+}
+.navbar-default {
+    border-radius: 0 !important;
+}
