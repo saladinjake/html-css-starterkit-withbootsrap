@@ -65,6 +65,8 @@ AppName.bootInit = (function(){
 
 
 document.addEventListener('DOMContentLoaded', function(){
+
+
   let App = new  AppName.bootInit()
   App.dispatcher()
 })
