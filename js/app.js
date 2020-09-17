@@ -7,17 +7,13 @@ AppName.bootInit = (function(){
   this.element = null;
 
   this.declearations =[
-
+      HomeController,
+      LoginController,
+      DashboardController
   ];
 
-  this.models =[
 
-  ];
-
-  this.services =[
-
-  ];
-  this.currentController ="Index";
+  this.currentController ="HomeController";
   this.currentAction ='index';
 
 
@@ -27,49 +23,48 @@ AppName.bootInit = (function(){
   }
 
   function dispatcher(){
+      let that = this;
 
-    this.currentController = localStorage.getItem('currentController') ? localStorage.getItem('currentController'): 'Index';
-    this.currentAction = localStorage.getItem('currentAction') ? localStorage.getItem('currentAction'): 'index';
+      that.currentController = localStorage.getItem('currentController') ? localStorage.getItem('currentController'): 'HomeController';
+      that.currentAction = localStorage.getItem('currentAction') ? localStorage.getItem('currentAction'): 'index';
+      // render(this.currentController.toLowerCase() + ".html");
+      document.addEventListener('click',function(e){
 
-    // render(this.currentController.toLowerCase() + ".html");
+          if(e.target.getAttribute('data-link').indexOf("@")){
+            e.preventDefault()
+            let controller = e.target.getAttribute('data-link');
+            controller = controller.split("@");
 
-     document.addEventListener('click',function(e){
+            let controllerName = controller[0];
+            let controllerAction = controller[1];
+            localStorage.setItem('currentController', controllerName);
+            localStorage.setItem('currentAction', controllerAction);
+             // get the controllers
+             // get the controller action
+             //then launch the view
+             render(controllerName.toLowerCase() + ".html");
+          }else{
+            if(window.location.href.indexOf('.html')){
+              render('index.html');
+            }
 
-        if(e.target.getAttribute('data-link').indexOf("@")){
-          e.preventDefault()
-          let controller = e.target.getAttribute('data-link');
-          controller = controller.split("@");
+             render('./');
 
-          let controllerName = controller[0];
-          let controllerAction = controller[1];
-          localStorage.setItem('currentController', controllerName);
-          localStorage.setItem('currentAction', controllerAction);
-           // get the controllers
-           // get the controller action
-           //then launch the view
-           render(controllerName.toLowerCase() + ".html");
-        }else{
-          if(window.location.href.indexOf('.html')){
-            render('index.html');
           }
-
-           render('./');
-
-        }
-    })
+      })
   }
 
 
 
 
   return {
-
      dispatcher:  dispatcher
-
   }
 })
 
 
 
-let App = new  AppName.bootInit()
-App.dispatcher()
+document.addEventListener('DOMContentLoaded', function(){
+  let App = new  AppName.bootInit()
+  App.dispatcher()
+})
