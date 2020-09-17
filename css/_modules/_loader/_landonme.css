@@ -97,7 +97,7 @@ footer{
 
 
 .animated {
-   background-image: url("./../../img/logo.jpg");
+   background-image: url("../../../img/logo.jpg");
    background-repeat: no-repeat;
    background-position: left top;
    padding-top:2px;

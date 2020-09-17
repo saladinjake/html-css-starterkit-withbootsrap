@@ -1,5 +1,5 @@
 @import './core/bootstrap.min.css';
-@import './core/core.css';
+/* @import './core/core.css'; */
 @import './core/pages.css';
 @import './core/icons.css';
 @import './core/responsive.css';
@@ -7,6 +7,9 @@
 /*Import other custom modules for this app*/
 @import './_modules/_global/_app.css';
 @import './_modules/_global/_header.css';
+@import './_modules/_global/_footer.css';
+
+
 
 @import './_modules/_components/_header.css';
 @import './_modules/_components/_images.css';

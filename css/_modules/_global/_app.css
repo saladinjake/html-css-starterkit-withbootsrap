@@ -336,15 +336,15 @@ a.selected {
   }
 
   section#about{
-    background: #102078 url(../img/bg3.jpg) no-repeat top left;
+    background: #102078 url(../../../img/bg3.jpg) no-repeat top left;
     background-size: cover;
   }
 
   html.test .header{
-    background: url('../img/testbg.jpg') no-repeat scroll center center / cover transparent !important;
+    background: url('../../../img/testbg.jpg') no-repeat scroll center center / cover transparent !important;
   }
   html.test3 .header{
-    background: url('../img/testbg2.jpg') no-repeat scroll center center / cover transparent !important;
+    background: url('../../../img/testbg2.jpg') no-repeat scroll center center / cover transparent !important;
   }
 
   html.test3 .header{
@@ -354,7 +354,7 @@ a.selected {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    background: url('../img/img_hero.jpg') no-repeat scroll center center / cover transparent;
+    background: url('../../../img/img_hero.jpg') no-repeat scroll center center / cover transparent;
     height: 600px;
   }
 
@@ -456,7 +456,7 @@ a.selected {
   .fixed-bg-image {
     padding-top: 5px !important;
     background-color: tomato;
-    background-image: url('../img/parlex.png') !important;
+    background-image: url('../../../img/parlex.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;

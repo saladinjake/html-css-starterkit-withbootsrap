@@ -79,7 +79,7 @@ color: #ff7878;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background: url(../img/img_hero.jpg) no-repeat center center scroll;
+    background: url(../../../img/img_hero.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
