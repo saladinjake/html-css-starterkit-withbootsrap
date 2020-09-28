@@ -1,0 +1,25 @@
+@import './core/bootstrap.min.css';
+/* @import './core/core.css'; */
+@import './core/pages.css';
+@import './core/icons.css';
+@import './core/responsive.css';
+
+/*Import other custom modules for this app*/
+@import './_modules/_global/_app.css';
+@import './_modules/_global/_header.css';
+@import './_modules/_global/_footer.css';
+
+
+
+@import './_modules/_components/_header.css';
+@import './_modules/_components/_images.css';
+@import './_modules/_components/_animate.css';
+@import './_modules/_components/_button.css';
+
+
+@import './_modules/_effects/_animation.css';
+@import './_modules/_effects/_mediaqueries.css';
+
+@import './_modules/_loader/_loading.css';
+@import './_modules/_loader/_load-ui-mock.css';
+@import './_modules/_loader/_landonme.css';
